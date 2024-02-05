@@ -6,7 +6,7 @@ let botonFiltroMujeres = document.getElementById('mujeres');
 let botonFiltroHombres = document.getElementById('hombres');
 let botonFiltroSinGenero = document.getElementById('sinGenero');
 let botonFiltroDesconocidos = document.getElementById('desconocidos');
-// Botones paginado:
+// -Botones paginado:
 let botonPrimeraPagina = document.getElementById('primeraPagina');
 let botonPaginaAtras = document.getElementById('paginaAtras');
 let botonPaginaSiguiente = document.getElementById('paginaSiguiente');
