@@ -3,7 +3,7 @@ html{
 }
 body {
     font-size: 100%;
-    padding: 1rem;
+    padding: 1.1rem;
     justify-content: center;
     background: linear-gradient(90deg, rgb(138, 53, 250), rgb(0, 255, 136))
 }

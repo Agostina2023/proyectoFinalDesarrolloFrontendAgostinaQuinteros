@@ -1,5 +1,5 @@
 //Elementos de HTML:
-//Botones encabezado:
+//Botones encabezado pagina:
 let divCaja = document.getElementById('cajaPersonajes');
 let botonFiltroTodos = document.getElementById('todos');
 let botonFiltroMujeres = document.getElementById('mujeres');
