@@ -163,10 +163,3 @@ botonPaginaSiguiente.disabled=false;
 //por último atrapamos la info en json con .then
 //Se debe poder realizar mostrar un listado de personajes de la serie
 // Se debe poder ver la siguiente información de cada personaje: Nombre - Género - Especies - Estado - Origen - Locación
-
-
-
-
-
-
-

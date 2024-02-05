@@ -18,30 +18,27 @@ a {
     text-decoration: none;
 }
 .logo {
-    display:flex;
+    display: block;
     font-family: 'Mochiy Pop One', 'Mansalva', 'Darumadrop One', sans-serif;
     font-size: 300%;
     color: rgb(255, 255, 255);
-    margin-inline-end: 0%;
+    margin: 1rem;
 }
 .by{
-    display: flex;
+    display: inline-flex;
     font-family: 'Montserrat','Outfit';
     font-size: 80%;
-    padding: 0%;
-    margin-top: 0%;
     text-align-last: left;
 }
 .encabezado{
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1.5rem, 1rem, 1rem, 1rem;
-    min-width: 250px;
-    max-height: 150%;
+    min-width: 200px;
 }
 .logoRickAndMorty {
-    display: flex, inline;
+    display: inline-flex;
     flex-wrap: wrap;
     text-align: start;
     justify-content: left;
@@ -81,16 +78,15 @@ a {
     padding-block: 2rem;
 }
 #todos, #mujeres, #hombres, #sinGenero, #desconocidos {
-    display: flex;
-    display: inline;
+    display: inline-flex;
     font-family: 'Montserrat','Outfit';
     font-size: 140%;
     border-style: hidden;
     font-weight: 600;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    padding: 10px, 15px, 10px, 15px;
-    margin: 1px;
+    padding: 15px, 15px, 15px, 15px;
+    margin: 5px, 1px, 5px, 1px;
 }
 #primeraPagina, #paginaAtras, #paginaSiguiente, #ultimaPagina{
     display: flex;
