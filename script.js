@@ -19,7 +19,7 @@ let paginaActual=1;
 
 
 
-//Función para mostrar todos los Personajes:
+//Función para poder mostrar todos los Personajes:
 function mostrarEnElHtml (arrPersonajes){
     divCaja.innerHTML='';//limpio el div con una string vacía
     arrPersonajes.forEach((listadoPersonajes)=>{
