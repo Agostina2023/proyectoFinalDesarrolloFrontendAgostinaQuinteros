@@ -1,0 +1,127 @@
+html{
+    font-size: 16px;
+}
+body {
+    font-size: 100%;
+    padding: 1rem;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(139, 53, 250), rgb(0, 255, 136))
+}
+p {
+    font-family: 'Montserrat','Outfit';
+    font-weight: 500;
+    justify-content: left;
+    width: 300px;
+    max-height: 300px;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    display:flex;
+    font-family: 'Mochiy Pop One', 'Mansalva', 'Darumadrop One', sans-serif;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    margin-inline-end: 0%;
+}
+.by{
+    display: flex;
+    font-family: 'Montserrat','Outfit';
+    font-size: 80%;
+    padding: 0%;
+    margin-top: 0%;
+    text-align-last: left;
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1.5rem, 1rem, 1rem, 1rem;
+    min-width: 250px;
+    max-height: 150%;
+}
+.logoRickAndMorty {
+    display: flex, inline;
+    flex-wrap: wrap;
+    text-align: start;
+    justify-content: left;
+    min-width: 200px;
+}
+#cajaPersonajes {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    padding: 10px, 10px, 10px, 10px;
+    justify-content: left;
+    margin: 1rem, 1rem, 1rem, 1rem;
+}
+.imagenes{
+    display: flex, inline-block;
+    max-width: 400px;
+}
+.personajes {
+    display: flex, inline-block;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Montserrat','Outfit';
+    font-size: 1rem;
+    border-width: 0px, 0px, 0px, 0px;
+    border-color: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    padding: 2rem;
+    max-width: 300px;
+}
+.titulo {
+    font-family: 'Montserrat','Outfit';
+    font-weight: bold;
+    justify-content: center;
+}
+.paginado{
+    padding-block: 2rem;
+}
+#todos, #mujeres, #hombres, #sinGenero, #desconocidos {
+    display: flex;
+    display: inline;
+    font-family: 'Montserrat','Outfit';
+    font-size: 140%;
+    border-style: hidden;
+    font-weight: 600;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px, 15px, 10px, 15px;
+    margin: 1px;
+}
+#primeraPagina, #paginaAtras, #paginaSiguiente, #ultimaPagina{
+    display: flex;
+    display: inline;
+    font-family: 'Montserrat','Outfit';
+    font-size: 140%;
+    border-style: hidden;
+    font-weight: 600;
+    justify-content: left;
+    background-color: rgb(255, 255, 255);
+    padding: 10px, 15px, 10px, 15px;
+}
+footer {
+    background-color: white;
+    min-height: 4rem;
+    min-width: 100%;
+}
+hr {
+    display: flex;
+    border-color: blueviolet;
+}
+.verMas {
+    display: flex, inline;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Outfit';
+    color: blueviolet;
+    font-weight: 700;
+}
+.derechos{
+    font-family:'Monserrat','Outfit';
+    font-size: 1.2rem; 
+    font-weight: 500;
+    justify-content: center;
+}
