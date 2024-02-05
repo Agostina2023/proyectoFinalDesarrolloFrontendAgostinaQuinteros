@@ -11,7 +11,7 @@ let botonPrimeraPagina = document.getElementById('primeraPagina');
 let botonPaginaAtras = document.getElementById('paginaAtras');
 let botonPaginaSiguiente = document.getElementById('paginaSiguiente');
 let botonUltimaPagina = document.getElementById('ultimaPagina');
-//
+
 //Variable con el array de Personajes:
 let totalPersonajes;
 //Variable que me ayuda a iniciar el contador en la primera página: 
